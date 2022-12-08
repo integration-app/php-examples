@@ -12,7 +12,7 @@ function getIntegrationAppToken(): string
 
     $payload = [
         'id' => "test@integration.app",  // Unique identifier of Account in your App
-        'name' => "Test User",  // Name of OTA Sync User
+        'name' => "Test User",  // Name of your User
         'iss' => $key,
         'iat' => 1356999524,
     ];
