@@ -11,7 +11,7 @@ function getIntegrationAppToken(): string
     $key = ''; // Workspace Key from console.integration.app
 
     $payload = [
-        'id' => "test@integration.app",  // Unique identifier of Account in OTA Sync
+        'id' => "test@integration.app",  // Unique identifier of Account in your App
         'name' => "Test User",  // Name of OTA Sync User
         'iss' => $key,
         'iat' => 1356999524,
